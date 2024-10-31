@@ -35,13 +35,14 @@ Detailed functional requirements are documented in the project report. Refer to 
 # Non-Functional Requirements
 Data is saved in the database for easier recovery.
 The system has a login page for security purposes.
-The system follows the user’s time zone for time-tracking.
+The system follows the user's time zone for time-tracking.
 The system will be updated according to the browser's update.
 
 # Quality Requirements
 ## Security
 Only the system admin can access user data.
-Reliability
+
+## Reliability
 Data is saved into the cache if there is no internet connection.
 
 ## Availability
@@ -55,19 +56,18 @@ Navigation from one page to another should take at most 5 seconds.
 ## Maintainability
 The system is overseen by the administrator 24/7.
 
-# Screenshots 
+# Screenshots
 ## Login Page
 ![login_page](https://github.com/Shaabanm2018/Volunteer-Management-Platform/assets/76607364/b207dd33-07a0-44c2-8a8f-f16ceb1ef6f3)
 
 ## Home Page
 ![eventlist1](https://github.com/Shaabanm2018/Volunteer-Management-Platform/assets/76607364/cb28945d-babf-43fb-bddc-5069f760fce0)
-
 ![eventlist2](https://github.com/Shaabanm2018/Volunteer-Management-Platform/assets/76607364/7f7ba125-d8ad-449b-9406-38eafa452cab)
 
 ## Create Event
 ![create_event](https://github.com/Shaabanm2018/Volunteer-Management-Platform/assets/76607364/86e0a480-a48e-4f48-a716-9c9c621b80e1)
 
-# Admin Page
+## Admin Page
 ![admin_page](https://github.com/Shaabanm2018/Volunteer-Management-Platform/assets/76607364/4b2103e3-7b16-4dac-8555-afbb48f2cd26)
 
 # Getting Started
@@ -75,7 +75,7 @@ Clone the repository: git clone https://github.com/Shaabanm2018/Volunteer-Manage
 Follow the setup instructions in the documentation
 
 # Contribution Guidelines
-Contributions are welcome! 
+Contributions are welcome!
 
 # License
 This project is licensed under the MIT License.
